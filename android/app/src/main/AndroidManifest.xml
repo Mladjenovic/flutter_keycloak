@@ -1,7 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.usluge_client">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="usluge_client"
+        android:label="Usluge.rs"
+        android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
